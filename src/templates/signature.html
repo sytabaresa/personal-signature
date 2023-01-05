@@ -1,8 +1,8 @@
 ---
 title: "syta.co signature"
 preheader: "syta.co signature"
-bodyClass: bg-base
-containerClass: bg-base
+bodyClass: bg-white
+containerClass: bg-white
 ---
 
 <extends src="src/layouts/main.html">
@@ -12,111 +12,77 @@ containerClass: bg-base
         <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Electrolize&display=swap">
     </block>
     <block name="template">
-        <table class="w-full font-sans text-contrast bg-base bg-[url('images/back.png')] sm:bg-[url('images/back-mobile.png')]" style="background-size: auto 100%;">
-            <!-- <tr role="separator">
-            </tr> -->
-            <tr class="hidden sm:table-row">
-                <td class="hidden sm:table-cell">
-                    <img src="images/circuit.png" alt="right border" width="75" class="max-w-full align-middle [border:0]">
-                </td>
-                <td align="left" class="hidden sm:table-cell pt-6 pl-8">
-                    <component src="src/components/desc.html">
-                    </component>
-                </td>
-                <td class="w-4 bg-primary">
-                </td>
-            </tr>
+        <table class="w-full font-sans" style="background-size: auto 100%;">
             <tr>
-                <td class="align-bottom">
-                    <table>
+                <td class="align-bottom min-w-14 max-w-24">
+                    <table class="w-full border-0">
                         <tr>
-                            <td class="sm:hidden">
+                            <td class="">
                                 <img src="images/circuit.png" alt="right border" width="85" class="max-w-full align-middle [border:0]">
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <table class="ml-8 px-2 bg-primary">
+                                <img src="images/left.png" alt="linkedin icon" width="24" class="inline-block max-w-full align-middle [border:0]">
+                                <table class="inline-block align-bottom ">
+                                    <tr>
+                                        <td>
+                                            <img src="images/top1.png" alt="top icon" width="24" class="max-w-full align-middle [border:0]">
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td>
                                             <a href="https://www.linkedin.com/in/sytabaresa">
-                                                <img src="images/linkedin.png" alt="linkedin icon" width="24" class="max-w-full align-middle [border:0] my-2">
+                                                <img src="images/linkedin.png" alt="linkedin icon" width="32" class="max-w-full align-middle [border:0]">
                                             </a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <a href="https://github.com/sytabaresa">
-                                                <img src="images/github.png" alt="github icon" width="24" class="max-w-full align-middle [border:0] my-2">
+                                                <img src="images/github.png" alt="github icon" width="32" class="max-w-full align-middle [border:0]">
                                             </a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="https://twitter.com/sytabaresa">
-                                                <img src="images/twitter.png" alt="twitter icon" width="24" class="max-w-full align-middle [border:0] my-2 mb-4">
+                                            <a href="https://twitter.com/sytabares">
+                                                <img src="images/twitter.png" alt="twitter icon" width="32" class="max-w-full align-middle [border:0]">
                                             </a>
                                         </td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
-                    </table>
-                </td>
-                <td class="align-bottom">
-                    <table class="w-full">
                         <tr>
-                            <td align="center" class="w-full">
-                                <table class="w-full">
-                                    <tr>
-
-                                        <td align="center" class="align-top">
-                                            <table class="w-full">
-                                                <tr role="separator">
-                                                    <td class="h-8"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="center" class="sm:hidden">
-                                                        <component src="src/components/desc.html">
-                                                        </component>
-                                                    </td>
-                                                    <td align="center" class="sm:hidden align-top">
-                                                        <component src="src/components/email.html">
-                                                        </component>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                        <td align="right" class="w-48 sm:w-64 xs:w-48">
-                                            <table class="w-full">
-                                                <tr>
-                                                    <td>
-                                                        <component src="src/components/email.html" class="hidden sm:block">
-                                                        </component>
-                                                    </td>
-                                                    <td align="right">
-                                                        <img src="images/border.png" alt="right border" width="75" class="max-w-full align-middle [border:0]">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="right" class="align-bottom">
-                                                        <!-- <component src="src/components/email.html" class="hidden sm:block">
-                                                        </component> -->
-                                                        <img src="images/border.png" alt="right border" width="90" class="max-w-full align-middle [border:0]">
-                                                    </td>
-                                                    <td align="right" class="w-[116px]">
-                                                        <img src="images/qr.png" alt="qr logo" width="100" class="max-w-full align-middle [border:0] pl-4 py-4 bg-primary">
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
+                            <td>
+                                <img src="images/bottom.png" alt="right logo" height="8" class="block w-full align-middle [border:0]">
                             </td>
                         </tr>
                     </table>
                 </td>
-                <td class="w-4 bg-primary">
+                <td class="align-bottom">
+                    <table class="w-full border-none">
+                        <tr>
+                            <td align="left" class="h-[200px]">
+                                <component src="src/components/desc.html" class="inline-block align-middle">
+                                </component>
+                                <table class="w-16 h-2 inline-block"></table>
+                                <component src="src/components/email.html" class="inline-block align-middle pl-4">
+                                </component>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="align-bottom">
+                                <img src="images/bottom.png" alt="right logo" height="8" class="block w-full pt-4 align-middle [border:0]">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="right" class="align-bottom w-10">
+                    <a href="https://syta.co">
+                        <img src="images/right-style.png" alt="right logo" height="250" class="block max-h-full align-middle [border:0]">
+                    </a>
                 </td>
             </tr>
         </table>
