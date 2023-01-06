@@ -2,29 +2,20 @@
   <p>
     <a href="https://maizzle.com" target="_blank">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/maizzle/maizzle/raw/master/.github/logo-dark.svg">
-        <img alt="Maizzle Starter" src="https://github.com/maizzle/maizzle/raw/master/.github/logo-light.svg" width="300" height="225" style="max-width: 100%;">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sytabaresa/personal-signature/raw/master/src/images/logo-short.png">
+        <img alt="Maizzle Starter" src="https://github.com/sytabaresa/personal-signature/raw/master/src/images/logo-short.png" width="300" height="225" style="max-width: 100%;">
       </picture>
     </a>
   </p>
-  <p>Quickly build HTML emails with utility-first CSS</p>
+  <p>Personal Signature of <strong>Sebastian Tabares</strong> (<a href="https://syta.co">syta.co</a>) made with Maizzle</p>
 <div>
 
-  [![Version][npm-version-shield]][npm]
-  [![Build][github-ci-shield]][github-ci]
-  [![Downloads][npm-stats-shield]][npm-stats]
   [![License][license-shield]][license]
 
   </div>
 </div>
 
 ## Getting Started
-
-Clone this starter:
-
-```bash
-npx degit maizzle/maizzle my-project
-```
 
 Install dependencies:
 
@@ -50,13 +41,9 @@ npm run build
 
 Maizzle documentation is available at https://maizzle.com
 
-## Issues
-
-Please open all issues in the [framework repository](https://github.com/maizzle/framework).
-
 ## License
 
-The Maizzle framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This is open-sourced software licensed under the [GPLv3 license](https://opensource.org/licenses/gpl-license).
 
 [npm]: https://www.npmjs.com/package/@maizzle/framework
 [npm-stats]: https://npm-stat.com/charts.html?package=%40maizzle%2Fframework&from=2019-03-27
@@ -65,4 +52,4 @@ The Maizzle framework is open-sourced software licensed under the [MIT license](
 [github-ci]: https://github.com/maizzle/framework/actions
 [github-ci-shield]: https://github.com/maizzle/framework/actions/workflows/nodejs.yml/badge.svg
 [license]: ./LICENSE
-[license-shield]: https://img.shields.io/npm/l/@maizzle/framework.svg?color=0e9f6e
+[license-shield]: https://img.shields.io/badge/license-GPL-blue
