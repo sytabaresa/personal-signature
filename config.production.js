@@ -17,7 +17,7 @@ module.exports = {
             },
         },
     },
-    baseURL: 'https://personal-signature.pages.dev/',
+    baseURL: 'https://sig.syta.co/',
     inlineCSS: true,
     removeUnusedCSS: true,
 }
