@@ -17,7 +17,7 @@ module.exports = {
             },
         },
     },
-    baseURL: 'https://tunnel.alire.co/',
+    baseURL: 'https://personal-signature.pages.dev/',
     inlineCSS: true,
     removeUnusedCSS: true,
 }
