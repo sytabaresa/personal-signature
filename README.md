@@ -15,6 +15,29 @@
   </div>
 </div>
 
+## Visuals
+
+All are screenshots in real devices/email clients:
+### Desktop:
+
+#### Outlook Mail Web application with dark theme:
+![desktop dark preview](./src/images/preview/desktop-dark.png)
+#### Yahoo Web App:
+![desktop light preview](./src/images/preview/desktop-light.png)
+
+### Mobile:
+<table>
+<tr>
+<td>
+<h4>Outlook Android App with dark theme</h4>
+<img alt="mobile dark preview" src="./src/images/preview/mobile-dark.png" />
+</td>
+<td>
+<h4>Gmail Android App with light theme</h4>
+<img alt="mobile light preview" src="./src/images/preview/mobile-light.png" />
+</td>
+</tr>
+</table>
 ## Getting Started
 
 Install dependencies:
